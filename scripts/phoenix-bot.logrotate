@@ -1,0 +1,11 @@
+/opt/phoenix-bot/logs/*.log {
+    daily
+    rotate 30
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 644 phoenix-bot phoenix-bot
+    dateext
+    dateformat -%Y%m%d
+}

@@ -1,0 +1,38 @@
+{
+  "christmas": {
+    "enabled": true,
+    "start_date": "2025-12-05",
+    "end_date": "2025-12-16",
+    "channel_id": 555555555555555551,
+    "log_channel_id": 555555555555555553,
+    "required_role_id": 555555555555555554,
+    "debug_mode": true,
+    "description": "12 Days of ARKmas - Daily gifts for the holiday season",
+    "daily_message": "Wake up {role}! A new gift is here!",
+    "announcement_time": "09:00"
+  },
+  "easter": {
+    "enabled": false,
+    "start_date": null,
+    "end_date": null,
+    "channel_id": null,
+    "log_channel_id": null,
+    "required_role_id": null,
+    "debug_mode": false,
+    "description": "Easter Egg Hunt - Special rewards",
+    "daily_message": "\ud83d\udc30 New Easter event available!",
+    "announcement_time": "09:00"
+  },
+  "ark_anniversary": {
+    "enabled": false,
+    "start_date": null,
+    "end_date": null,
+    "channel_id": null,
+    "log_channel_id": null,
+    "required_role_id": null,
+    "debug_mode": false,
+    "description": "ARK Anniversary Celebration",
+    "daily_message": "\ud83c\udf89 ARK Anniversary event is live!",
+    "announcement_time": "09:00"
+  }
+}

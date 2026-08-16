@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env.local
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.template
+.env.backup*
+.pypirc
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/  # Keep local dev tests out of production
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Migration artifacts (contain RCON passwords / sensitive data)
+migration.sql
+
+# Deploy mirror (contains production .env/db/tokens) and local backups
+pi-staging/
+.backups/
+backup_dev_*/
+
+# Remote agent: secrets, job state, build artifacts
+remote_agent/config.json
+remote_agent/jobs/
+remote_agent/*.exe
+remote_agent/dist/
+remote_agent/resource.syso
+
+# Credential quarantine (real RCON creds embedded - rotate, sanitize, then re-add)
+bot.db.backup
+bot.preports.bak
+*.db.backup
+*.preports.bak
+docs/CHAT_COMPLETE.md
+docs/SECURITY_WARNING.md
+docs/YOUR_SERVER_CONFIG.md
+docs/PHASE_2_COMPLETE.md
+scripts/diagnostics/test_aberration_debug.py
+scripts/diagnostics/test_island_rcon.py
+scripts/diagnostics/test_rcon_direct.py
+scripts/diagnostics/test_working_server.py
+CHAT_COMPLETE.md
+PHASE_2_COMPLETE.md
+SECURITY_WARNING.md
+YOUR_SERVER_CONFIG.md
+bot.db.backup
+bot.preports.bak
+test_aberration_debug.py
+test_island_rcon.py
+test_rcon_direct.py
+test_working_server.py

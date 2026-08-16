@@ -1,0 +1,10 @@
+{
+    "ark_versions": [
+        {
+            "version": "75.27",
+            "build_id": "21015190",
+            "released": "2025-12-01",
+            "notes": "Current production version"
+        }
+    ]
+}

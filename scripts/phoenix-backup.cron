@@ -1,0 +1,3 @@
+# Phoenix Bot Database Backup - Hourly
+# Runs at minute 0 of every hour
+0 * * * * phoenix-bot /opt/phoenix-bot/scripts/backup_db.sh

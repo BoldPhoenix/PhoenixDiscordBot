@@ -1,0 +1,41 @@
+{
+    "FixedFileInfo":  {
+                          "FileVersion":  {
+                                              "Major":  3,
+                                              "Minor":  3,
+                                              "Patch":  2,
+                                              "Build":  0
+                                          },
+                          "ProductVersion":  {
+                                                 "Major":  3,
+                                                 "Minor":  3,
+                                                 "Patch":  2,
+                                                 "Build":  0
+                                             },
+                          "FileFlagsMask":  "3f",
+                          "FileFlags":  "00",
+                          "FileOS":  "040004",
+                          "FileType":  "01",
+                          "FileSubType":  "00"
+                      },
+    "StringFileInfo":  {
+                           "Comments":  "",
+                           "CompanyName":  "Phoenix ARK",
+                           "FileDescription":  "Phoenix ARK Agent - ARK Survival Ascended Server Management",
+                           "FileVersion":  "3.3.2.0",
+                           "InternalName":  "PhoenixArkAgent",
+                           "LegalCopyright":  "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© 2026 Phoenix ARK",
+                           "LegalTrademarks":  "",
+                           "OriginalFilename":  "PhoenixArkAgent.exe",
+                           "PrivateBuild":  "",
+                           "ProductName":  "Phoenix ARK Agent",
+                           "ProductVersion":  "3.3.2.0",
+                           "SpecialBuild":  ""
+                       },
+    "VarFileInfo":  {
+                        "Translation":  {
+                                            "LangID":  "0409",
+                                            "CharsetID":  "04B0"
+                                        }
+                    }
+}

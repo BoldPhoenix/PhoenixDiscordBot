@@ -1,0 +1,18 @@
+[Unit]
+Description=Phoenix ARK Bot - CurseForge Mod Harvester
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/phoenix-bot
+ExecStart=/usr/bin/python3 /opt/phoenix-bot/scripts/harvester.py
+Restart=always
+RestartSec=60
+
+Environment=PYTHONUNBUFFERED=1
+Environment=DATABASE_PATH=/opt/phoenix-bot/data/phoenix_bot.db
+
+[Install]
+WantedBy=multi-user.target
